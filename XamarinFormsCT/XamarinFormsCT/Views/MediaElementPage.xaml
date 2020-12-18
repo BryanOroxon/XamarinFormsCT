@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mctrl="http://xamarin.com/schemas/2020/toolkit"
+             x:Class="XamarinFormsCT.Views.MediaElementPage">
+    <Grid>
+        <mctrl:MediaElement x:Name="media" 
+                            Source="https://sec.ch9.ms/ch9/1bec/36d0a8ed-175d-4e1b-8ae6-f88df3fa1bec/XAMSHOWFormsFiveIsHERE_high.mp4" 
+                            Aspect="AspectFill" ShowsPlaybackControls="True" />
+    </Grid>
+</ContentPage>
